@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import TwitterClone from "@/public/TwitterClone.png";
+import NewsBits from "@/public/NewsBits.png";
 
 export const links = [
   {
@@ -72,13 +73,15 @@ export const projectsData = [
       "Recoil",
     ],
     imageUrl: TwitterClone,
+    projLink: "https://twitter-clone-daveprayag.vercel.app/",
   },
   {
-    title: "rmtDev",
+    title: "NewsBits",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: TwitterClone,
+    imageUrl: NewsBits,
+    projLink: "https://news-bits-main-web.vercel.app/",
   },
   {
     title: "Word Analytics",
@@ -86,6 +89,7 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: TwitterClone,
+    projLink: "https://twitter-clone-daveprayag.vercel.app/",
   },
 ] as const;
 
