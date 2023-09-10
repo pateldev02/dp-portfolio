@@ -73,19 +73,19 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me{" "}
+          Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
         </Link>
         <a
           href="/PrayagDave_CV.pdf"
           download
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full border border-black/10 outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer"
+          className="group bg-white/10 px-7 py-3 flex items-center gap-2 rounded-full border border-black/10 outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer"
         >
           Download CV{" "}
           <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
@@ -93,14 +93,14 @@ export default function Intro() {
         <a
           href="https://www.linkedin.com/in/prayagdave/"
           target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full border border-black/10 hover:text-gray-950 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
+          className="bg-white/10 p-4 flex items-center opacity-70 gap-2 rounded-full border border-black/10  outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
         >
           <BsLinkedin />
         </a>
         <a
           href="https://github.com/daveprayag"
           target="_blank"
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]  hover:text-gray-950 border border-black/10 outline-none focus:scale-110 hover:scale-105 active:scale-105 transition"
+          className="bg-white/10 p-4 opacity-70 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 outline-none focus:scale-110 hover:scale-105 active:scale-105 transition"
         >
           <FaGithubSquare />
         </a>
