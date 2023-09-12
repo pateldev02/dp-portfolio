@@ -1,9 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+// import { FaReact } from "react-Masters in Information Technology
 import { LuGraduationCap } from "react-icons/lu";
 import TwitterClone from "@/public/TwitterClone.png";
 import NewsBits from "@/public/NewsBits.png";
+import ToDoApp from "@/public/ToDoApp.png";
 
 export const links = [
   {
@@ -34,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelors in Computer Applications",
+    location: "MS University, Vadodara",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "My journey into the IT realm began with courses like CS Fundamentals and Web Dev, and I must admit, it ignited a spark within me. Graduating with an 'A' grade, I not only earned the knowledge but also a secret handshake with my computer. We're tight now.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "June 2019 - May 2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Full-Stack Developer Intern",
+    location: "Minimal Dot, Vadodara",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I ventured into the realm of Full-Stack Development, diving headfirst into real-time client projects while embracing the holy grail of coding practices. As I delved deeper into the mesmerizing world of web development, my passion for crafting aesthetically pleasing websites with a purpose skyrocketed.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "December 2021 - May 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Masters in Information Technology",
+    location: "DA-IICT, Gandhinagar",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Currently pursuing a Master's in Information Technology, with a focus on core concepts like Cloud Computing, Database Management Systems, Systems Programming, Web Development, and Object-Oriented Programming. Alongside, I've honed my soft skills and public speaking abilities.",
+    icon: React.createElement(LuGraduationCap),
+    date: "July 2022 - present",
   },
 ] as const;
 
@@ -63,7 +64,7 @@ export const projectsData = [
   {
     title: "Twitter Clone",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Developed a professional grade Twitter clone with full integration of key functionalities that make the platform unique.",
     tags: [
       "React",
       "Next.js",
@@ -71,6 +72,7 @@ export const projectsData = [
       "Tailwind CSS",
       "Firebase",
       "Recoil",
+      "React Modal",
     ],
     imageUrl: TwitterClone,
     projLink: "https://twitter-clone-daveprayag.vercel.app/",
@@ -78,18 +80,26 @@ export const projectsData = [
   {
     title: "NewsBits",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "An interactive website that provides news in a short and concise manner summarized using powerful NLP toolkits.",
+    tags: [
+      "React.js",
+      "Bootstrap 5",
+      "Express",
+      "MongoDB",
+      "Node.js",
+      "JWT",
+      "Pysummarization",
+    ],
     imageUrl: NewsBits,
     projLink: "https://news-bits-main-web.vercel.app/",
   },
   {
-    title: "Word Analytics",
+    title: "ToDo App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: TwitterClone,
-    projLink: "https://twitter-clone-daveprayag.vercel.app/",
+      "A very basic todo app with a clean UI where the user can create-update-delete tasks as needed.",
+    tags: ["React.js", "Express", "Node.js", "MongoDB"],
+    imageUrl: ToDoApp,
+    projLink: "https://todoapp-daveprayag.vercel.app/",
   },
 ] as const;
 
