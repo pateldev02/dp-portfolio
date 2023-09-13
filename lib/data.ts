@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Masters in Information Technology",
     location: "DA-IICT, Gandhinagar",
     description:
-      "Currently pursuing a Master's in Information Technology, with a focus on core concepts like Cloud Computing, Database Management Systems, Systems Programming, Web Development, and Object-Oriented Programming. Alongside, I've honed my soft skills and public speaking abilities.",
+      "Currently pursuing Masters in Information Technology, with a focus on core concepts like Cloud Computing, Database Management Systems, Systems Programming, Web Development, and Object-Oriented Programming. Alongside, I've honed my soft skills and public speaking abilities.",
     icon: React.createElement(LuGraduationCap),
     date: "July 2022 - present",
   },
