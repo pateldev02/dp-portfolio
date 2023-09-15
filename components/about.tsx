@@ -17,43 +17,22 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-4 leading-8">
-        Currently pursuing my Masters I'm a dedicated web developer with a
-        penchant for crafting purpose-driven, cutting-edge websites. Currently,
-        I'm advancing my expertise through a Master's program in IT, where I
-        thrive on the intricate art of problem-solving within the realm of
-        full-stack development. My technical arsenal features React, Next.js,
-        Tailwind CSS, and MySQL, enriched with Prisma and TypeScript for an
-        elevated development experience. I'm not one to conform to the norm; I'm
-        driven by innovation. In my quest, I'm actively seeking a full-time
-        position as a full-stack developer, poised to introduce fresh
-        perspectives to the industry. Beyond coding, I'm an avid outdoor
-        enthusiast, a fervent Real Madrid supporter, and an accomplished
-        photographer.
-        {/* After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer. */}
+        Pursuing my Masters I'm a dedicated web developer with a penchant for
+        crafting purpose-driven, cutting-edge websites. I'm advancing my
+        expertise through a Master's program in IT, where I thrive on the
+        intricate art of problem-solving within the realm of full-stack
+        development. My current technical arsenal features React, Next.js,
+        Tailwind CSS, and MySQL for an elevated development experience.
       </p>
-
-      {/* <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p> */}
+      <p>
+        I'm not one to conform to the norm; I'm driven by{" "}
+        <span className="underline">innovation</span>. In my quest, I'm{" "}
+        <span className="italic"> actively seeking</span> a full-time position
+        as a full-stack developer, poised to introduce fresh perspectives to the
+        industry. Beyond coding, I'm an avid outdoor enthusiast, a fervent Real
+        Madrid supporter, and an <span className="italic">accomplished</span>{" "}
+        photographer.{" "}
+      </p>
     </motion.section>
   );
 }
