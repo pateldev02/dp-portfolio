@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import TwitterClone from "@/public/TwitterClone.png";
 import NewsBits from "@/public/NewsBits.png";
 import ToDoApp from "@/public/ToDoApp.png";
+import Portfolio from "@/public/Portfolio.png";
 
 export const links = [
   {
@@ -78,6 +79,21 @@ export const projectsData = [
     projLink: "https://twitter-clone-daveprayag.vercel.app/",
   },
   {
+    title: "Portfolio",
+    description:
+      "A very minimal yet elegant portfolio website which reflects my skill as a web developer. This very website you are visiting.",
+    tags: [
+      "React.js",
+      "Next.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Resend",
+    ],
+    imageUrl: Portfolio,
+    projLink: "#",
+  },
+  {
     title: "NewsBits",
     description:
       "An interactive website that provides news in a short and concise manner summarized using powerful NLP toolkits.",
@@ -92,14 +108,6 @@ export const projectsData = [
     ],
     imageUrl: NewsBits,
     projLink: "https://news-bits-main-web.vercel.app/",
-  },
-  {
-    title: "ToDo App",
-    description:
-      "A very basic todo app with a clean UI where the user can create-update-delete tasks as needed.",
-    tags: ["React.js", "Express", "Node.js", "MongoDB"],
-    imageUrl: ToDoApp,
-    projLink: "https://todoapp-daveprayag.vercel.app/",
   },
 ] as const;
 
