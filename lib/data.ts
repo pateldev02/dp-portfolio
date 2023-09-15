@@ -91,7 +91,7 @@ export const projectsData = [
       "Resend",
     ],
     imageUrl: Portfolio,
-    projLink: "#",
+    projLink: "https://prayagdave.com",
   },
   {
     title: "NewsBits",
