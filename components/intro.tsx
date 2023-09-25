@@ -92,6 +92,29 @@ export default function Intro() {
         <a
           href="https://www.linkedin.com/in/prayagdave/"
           target="_blank"
+          className="bg-white/10 hidden p-4 sm:flex items-center opacity-70 gap-2 rounded-full border border-black/10  outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
+        >
+          <BsLinkedin />
+        </a>
+        <a
+          href="https://github.com/daveprayag"
+          target="_blank"
+          className="bg-white/10 p-4 opacity-70 hidden sm:flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 outline-none focus:scale-110 hover:scale-105 active:scale-105 transition"
+        >
+          <FaGithubSquare />
+        </a>
+      </motion.div>
+      <motion.div
+        className="flex flex-row sm:hidden mt-4 items-center justify-center gap-3 px-4 text-lg font-medium"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.1,
+        }}
+      >
+        <a
+          href="https://www.linkedin.com/in/prayagdave/"
+          target="_blank"
           className="bg-white/10 p-4 flex items-center opacity-70 gap-2 rounded-full border border-black/10  outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
         >
           <BsLinkedin />

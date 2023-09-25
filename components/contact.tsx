@@ -14,7 +14,7 @@ export default function Contact() {
     <motion.section
       ref={ref}
       id="contact"
-      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center scroll-mt-28"
       initial={{
         opacity: 0,
       }}
@@ -63,7 +63,9 @@ export default function Contact() {
           required
           maxLength={5000}
         ></textarea>
-        <SubmitBtn />
+        <div className="flex justify-end">
+          <SubmitBtn />
+        </div>
       </form>
     </motion.section>
   );
