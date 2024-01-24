@@ -2,7 +2,7 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
-import { skillsData } from "@/lib/data";
+import { cloudServicesData, dbData, languagesData, osData, skillsData } from "@/lib/data";
 import { motion } from "framer-motion";
 
 const fadeInAnimationVariants = {
@@ -28,8 +28,71 @@ export default function Skills() {
       className="mb-28 max-w-[45rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My skills</SectionHeading>
+
+      <h3 className="font-semibold capitalize pb-6">Languages</h3>
+
+      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+        {languagesData.map((skill, index) => (
+          <motion.li
+            className="bg-white/10 borderBlack rounded-xl px-5 py-3 text-white/80"
+            key={index}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={index}
+          >
+            {skill}
+          </motion.li>
+        ))}
+      </ul>
+
+      <h3 className="font-semibold capitalize p-6">Tools/Technologies</h3>
+
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
+          <motion.li
+            className="bg-white/10 borderBlack rounded-xl px-5 py-3 text-white/80"
+            key={index}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={index}
+          >
+            {skill}
+          </motion.li>
+        ))}
+      </ul>
+
+      <h3 className="font-semibold capitalize p-6">Cloud Services</h3>
+
+      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+        {cloudServicesData.map((skill, index) => (
+          <motion.li
+            className="bg-white/10 borderBlack rounded-xl px-5 py-3 text-white/80"
+            key={index}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={index}
+          >
+            {skill}
+          </motion.li>
+        ))}
+      </ul>
+
+      <h3 className="font-semibold capitalize p-6">Databases</h3>
+
+      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+        {dbData.map((skill, index) => (
           <motion.li
             className="bg-white/10 borderBlack rounded-xl px-5 py-3 text-white/80"
             key={index}

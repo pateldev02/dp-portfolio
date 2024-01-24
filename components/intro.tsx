@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import PD1 from "@/public/PD1.jpg";
+import DP from "@/public/Dev.jpg";
 import PD2 from "@/public/PD2.jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -28,13 +28,13 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src={PD2}
-              alt="Prayag portrait"
+              src={DP}
+              alt="Dev portrait"
               width="250"
               height="250"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] object-top border-white shadow-xl"
+              className="h-24 w-24 rounded-full object-cover border-[0.35rem] object-mid border-white shadow-xl"
             />
           </motion.div>
           <motion.span
@@ -57,9 +57,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Prayag.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer.</span> I enjoy
-        building sites & apps.
+        <span className="font-bold">Hello, I'm Dev.</span> I'm a{" "}
+        <span className="font-bold">software development engineer.</span> I build software solutions.
       </motion.h1>
 
       <motion.div
@@ -82,7 +81,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
         </Link>
         <a
-          href="/PrayagDave_Resume.pdf"
+          href="/dev_resume.pdf"
           download
           className="group bg-white/10 px-7 py-3 flex items-center gap-2 rounded-full border border-black/10 outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer"
         >
@@ -90,14 +89,14 @@ export default function Intro() {
           <HiDownload className="opacity-70 group-hover:translate-y-1 transition" />
         </a>
         <a
-          href="https://www.linkedin.com/in/prayagdave/"
+          href="https://www.linkedin.com/in/devpatel2427/"
           target="_blank"
           className="bg-white/10 hidden p-4 sm:flex items-center opacity-70 gap-2 rounded-full border border-black/10  outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
         >
           <BsLinkedin />
         </a>
         <a
-          href="https://github.com/daveprayag"
+          href="https://github.com/pateldev02"
           target="_blank"
           className="bg-white/10 p-4 opacity-70 hidden sm:flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 outline-none focus:scale-110 hover:scale-105 active:scale-105 transition"
         >
@@ -113,14 +112,14 @@ export default function Intro() {
         }}
       >
         <a
-          href="https://www.linkedin.com/in/prayagdave/"
+          href="https://www.linkedin.com/in/devpatel2427/"
           target="_blank"
           className="bg-white/10 p-4 flex items-center opacity-70 gap-2 rounded-full border border-black/10  outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
         >
           <BsLinkedin />
         </a>
         <a
-          href="https://github.com/daveprayag"
+          href="https://github.com/pateldev02"
           target="_blank"
           className="bg-white/10 p-4 opacity-70 flex items-center gap-2 rounded-full text-[1.35rem] border border-black/10 outline-none focus:scale-110 hover:scale-105 active:scale-105 transition"
         >

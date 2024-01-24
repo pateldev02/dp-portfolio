@@ -17,21 +17,9 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-4 leading-8">
-        Pursuing my Masters I'm a dedicated web developer with a penchant for
-        crafting purpose-driven, cutting-edge websites. I'm advancing my
-        expertise through a Master's program in IT, where I thrive on the
-        intricate art of problem-solving within the realm of full-stack
-        development. My current technical arsenal features React, Next.js,
-        Tailwind CSS, and MySQL for an elevated development experience.
-      </p>
-      <p>
-        I'm not one to conform to the norm; I'm driven by{" "}
-        <span className="underline">innovation</span>. In my quest, I'm{" "}
-        <span className="italic"> actively seeking</span> a full-time position
-        as a full-stack developer, poised to introduce fresh perspectives to the
-        industry. Beyond coding, I'm an avid outdoor enthusiast, a fervent Real
-        Madrid supporter, and an <span className="italic">accomplished</span>{" "}
-        photographer.{" "}
+      Armed with a Bachelor's in Computer Applications, my journey began at Paul Mason Consulting, an UK based Retail IT firm, where I turned heads as an intern. Not just any intern, though—I was the one who bagged a pre-placement offer! Why, you ask? For mastering the art of juggling over 150 web portals, ensuring they didn’t just perform but dazzled with real-time data streaming. AWS became my playground, where I played a key role in server migrations, transforming our maintenance and monitoring into a thing of beauty. </p>
+
+      <p>Now, at Frodoe LLC, an USA based IT services firm, I’m the software engineer everyone turns to for elevating systems. Off the clock, I'm a cricket-hitting, hill-conquering enthusiast, occasionally flaunting my JPMorgan Chase and Udemy certs. But really, it's all about making software do the heavy lifting, while I plan my next hike or cricket match.
       </p>
     </motion.section>
   );
