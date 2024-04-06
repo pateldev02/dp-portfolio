@@ -4,7 +4,7 @@ import { Resend } from "resend";
 import { getErrorMessage, validateString } from "@/lib/utils";
 import ContactFormEmail from "@/email/contact-form-email";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_EMAIL_API);
 
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
@@ -12,7 +12,7 @@ export const sendEmail = async (formData: FormData) => {
 
   if (!validateString(senderEmail, 500)) {
     return {
-      error: "Invlaid email",
+      error: "Invalid email",
     };
   }
   if (!validateString(message, 5000)) {
@@ -40,3 +40,4 @@ export const sendEmail = async (formData: FormData) => {
   }
   return { data };
 };
+
