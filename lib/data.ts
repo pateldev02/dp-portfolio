@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "Software Engineer Trainee",
     location: "Bhagat Engineers",
     description:
-      "I spearheaded the development of a serverless, SFU-based internal communication system, streamlining consistent communication within our organization. This enhancement in communication infrastructure significantly boosted operational efficiency and led to a remarkable 33% reduction in issue resolution times. My involvement extended beyond development; I meticulously designed and documented this compact yet potent solution, effectively revolutionizing our internal communication and service request handling processes.",
+      "Engineered a robust data cleansing and processing solution using Databricks and PySpark, ensuring integrity and reliability for large-scale data from diverse channels. Developed sales data visualizations to aid future business planning. Pioneered unique KPIs, leading to an 18% quarter-on-quarter revenue growth.",
     icon: React.createElement(CgWorkAlt),
     date: "July 2022 - November 2022",
   },
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Frodoe LLC",
     description:
-      "I played a key role in maintaining a custom POS system, which resulted in a significant 20% increase in transaction speed and notably improved customer satisfaction. In an effort to optimize our deployment processes, I successfully transitioned from manual Putty deployments to automated Jenkins pipelines, greatly enhancing efficiency and minimizing human error in our CI/CD processes. Additionally, I was responsible for creating and managing a data pipeline, enabling real-time streaming and collection of automated logs, which were crucial for our data analytics initiatives.",
+      "Designed and built a scalable internal communication app with web sockets and pub-sub architecture. Integrated Apache Kafka for efficient chat data streaming and MySQL Workbench for storage. Deployed on AWS VPC with multi-level security and traffic management using NAT and Internet gateways.",
     icon: React.createElement(CgWorkAlt),
     date: "December 2022 - Present",
   },
@@ -126,20 +126,18 @@ export const skillsData = [
   "Apache Spark",
   "Hadoop",
   "Docker",
-  "Jenkins",
   "Pandas",
   "Numpy",
   "VSCode",
   "Jupyter",
-  "JIRA"
 ] as const;
 
 export const languagesData = [
   "JavaScript",
   "Python",
+  "Java",
   "SQL",
   "C++",
-  "Java",
   "HTML",
   "CSS"
   
@@ -148,15 +146,12 @@ export const languagesData = [
 export const cloudServicesData = [
   "AWS S3",
   "AWS EC2 Compute",
+  "AWS VPC",
   "AWS Lambda",
   "AWS Athena",
   "AWS Glue",
   "AWS CloudWatch",
-  "AWS ECS",
-  "AWS ECR",
   "AWS Kinesis",
-  "AWS DynamoDB",
-  "AWS Redshift",
   
 ] as const;
 
@@ -165,7 +160,6 @@ export const dbData = [
   "PostgreSQL",
   "Redis",
   "MongoDB",
-  "MsSQL Server",
   
 ] as const;
 

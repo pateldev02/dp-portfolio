@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import DP from "@/public/Dev.jpg";
+import DP from "@/public/dev_profile.jpg";
 import PD2 from "@/public/PD2.jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -30,7 +30,7 @@ export default function Intro() {
             <Image
               src={DP}
               alt="Dev portrait"
-              width="250"
+              width="0.5"
               height="250"
               quality="95"
               priority={true}
@@ -81,7 +81,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
         </Link>
         <a
-          href="/dev_resume.pdf"
+          href="/Dev_Patel.pdf"
           download
           className="group bg-white/10 px-7 py-3 flex items-center gap-2 rounded-full border border-black/10 outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer"
         >
