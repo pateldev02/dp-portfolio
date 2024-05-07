@@ -28,7 +28,7 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact Me</SectionHeading>
+      <SectionHeading><div className="mt-[-8] text-2xl">Get in Touch: Discussing Ideas and Opportunities</div></SectionHeading>
       <p className="text-white/80 -mt-6">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:devpatel2427@gmail.com">

@@ -6,6 +6,7 @@ import webScraper from "@/public/webScraper.png";
 import chatApp from "@/public/scalable-chat-app.png";
 import marketStream from "@/public/marketStream.png";
 import Portfolio from "@/public/Portfolio.png";
+import iplStats from "@/public/IPL stats cluster.png"
 
 export const links = [
   {
@@ -67,6 +68,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "December 2022 - Present",
   },
+  {
+    title: "MS, Computer Science",
+    location: "Johns Hopkins University",
+    description:
+      "Pursuing MS in Computer Science with a concentration in Data Science and Cloud Computing as a part-time student, focusing on advanced data-intensive computational techniques and cloud infrastructure to enhance my technical expertise and career prospects in the evolving tech landscape.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2024 - Present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -87,6 +96,21 @@ export const projectsData = [
     projLink: "https://github.com/pateldev02/scalable-socket-app/",
   },
   {
+    title: "IPL stats cluster",
+    description:
+      "Transforming and cleansing a raw sports league dataset to uncover key insights into player and team performances.",
+    tags: [
+      "Apache Spark",
+      "SQL",
+      "AWS",
+      "Databricks",
+      "Python",
+      "PySpark", 
+    ],
+    imageUrl: iplStats,
+    projLink: "https://github.com/pateldev02/ipl-stats-cluster/",
+  },
+  {
     title: "MarketStream Analytics Engine",
     description:
       "A scalable pipeline swiftly transforming real-time unstructured data into actionable insights.",
@@ -100,20 +124,7 @@ export const projectsData = [
     imageUrl: marketStream,
     projLink: "https://github.com/pateldev02/trading-data-engineering",
   },
-  {
-    title: "webScraper",
-    description:
-      "Seamlessly integrating Sequelize, Node.js, and Puppeteer, this project revolutionizes web scraping and data storage for scalable efficiency.",
-    tags: [
-      "JavaScript",
-      "Node.js",
-      "MySQL Workbench",
-      "Sequelize",
-      "cron", "bcrypt"
-    ],
-    imageUrl: webScraper,
-    projLink: "https://github.com/pateldev02/webScraper/",
-  },
+  
 ] as const;
 
 export const skillsData = [
