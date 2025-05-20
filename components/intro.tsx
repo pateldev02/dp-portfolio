@@ -53,12 +53,15 @@ export default function Intro() {
         </div>
       </div>
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Dev.</span> A{" "}
-        <span className="font-bold">software engineer</span> who likes building data and software solutions.
+        <span className="font-bold">Dev Patel</span> 
+        <br />
+        <span className="text-lg font-medium">Data Engineer | Scalable & Distributed System Design | Quant Enthusiast</span> 
+        {/* A{" "} */}
+        {/* <span className="font-bold">software engineer</span> who likes building data and software solutions. */}
       </motion.h1>
 
       <motion.div
@@ -81,7 +84,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
         </Link>
         <a
-          href="/Dev_Patel.pdf"
+          href="/Dev_Patel_Resume.pdf"
           download
           className="group bg-white/10 px-7 py-3 flex items-center gap-2 rounded-full border border-black/10 outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer"
         >

@@ -66,15 +66,31 @@ export const experiencesData = [
     description:
       "Designed and built a scalable internal communication app with web sockets and pub-sub architecture. Integrated Apache Kafka for efficient chat data streaming and MySQL Workbench for storage. Deployed on AWS VPC with multi-level security and traffic management using NAT and Internet gateways.",
     icon: React.createElement(CgWorkAlt),
-    date: "December 2022 - Present",
+    date: "December 2022 - April 2024",
+  },
+  {
+    title: "Operations Support Engineer - IC",
+    location: "Essendant",
+    description:
+      "At Essendant, I focused on leveraging data to drive smarter inventory and pricing decisions across a warehouse ecosystem managing 80,000+ SKUs. I maintained and enhanced Power BI dashboards to improve visibility into inventory costs, stock fluctuations, and product demand. Using SQL and trend analysis, I identified pricing inefficiencies, reduced markouts, and supported revenue optimization. I also led annual data-driven inventory audits, achieving 98% compliance, and partnered with cross-functional teams to ensure SOP alignment and data consistency across systems.",
+    icon: React.createElement(CgWorkAlt),
+    date: "February 2023 - December 2025",
   },
   {
     title: "MS, Computer Science",
     location: "Johns Hopkins University",
     description:
       "Pursuing MS in Computer Science with a concentration in Data Science and Cloud Computing as a part-time student, focusing on advanced data-intensive computational techniques and cloud infrastructure to enhance my technical expertise and career prospects in the evolving tech landscape.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Present - 2026",
+  },
+  {
+    title: "Data Engineer",
+    location: "Flow AI",
+    description:
+      "At Flow AI, I led a small, agile team focused on building and scaling data pipeline architecture for high-volume email processing. I was responsible for the end-to-end system design, ensuring seamless integration across components built with Python, Spark, Kafka, and Google Cloud Platform. We optimized large-scale data crawling by implementing batch API strategies, rate limiting, and OS-level pagination, reducing retrieval time by over 40%. My leadership emphasized modular design, fault-tolerant systems, and efficiency at scale — enabling robust event-driven workflows and minimizing manual intervention.",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2024 - Present",
+    date: "November 2024 - February 2025",
   },
 ] as const;
 
@@ -128,41 +144,40 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Node.js",
-  "Socket.io",
-  "WebRTC",
-  "React.js",
-  "Next.js",
-  "Apache Kafka",
-  "Apache Spark",
-  "Hadoop",
-  "Docker",
+  "FastAPI", 
+  "RestAPI",
   "Pandas",
   "Numpy",
-  "VSCode",
+  "Apache Kafka",
+  "Apache Spark",
+  "Node.js",
+  "Socket.io",
+  "React.js",
+  "Next.js",
+  "Hadoop",
+  "Postman", 
+  "DataBricks", 
+  "Git",
   "Jupyter",
 ] as const;
 
 export const languagesData = [
-  "JavaScript",
   "Python",
-  "Java",
   "SQL",
-  "C++",
-  "HTML",
-  "CSS"
+  "JavaScript",
+  "Java",
   
 ] as const;
 
 export const cloudServicesData = [
   "AWS S3",
-  "AWS EC2 Compute",
+  "AWS EC2",
   "AWS VPC",
   "AWS Lambda",
   "AWS Athena",
   "AWS Glue",
   "AWS CloudWatch",
-  "AWS Kinesis",
+  "Google Cloud Storage"
   
 ] as const;
 
